@@ -20,18 +20,8 @@ $$a(a + 1) \dots (a + n + 1)$$
 
 ### Блок-схема
 
-<img width="350" alt="Блок-схема" src="https://github.com/user-attachments/assets/">
+<img width="863" height="566" alt="image" src="https://github.com/user-attachments/assets/a498a092-5f65-4551-8cf6-3cedd35564d4" />
 
-```mermaid
-flowchart TD
-    Start([Начало]) --> Input[/"Ввод a, n"/]
-    Input --> Init["prod = 1"]
-    Init --> Loop{{"i = 0; i <= n + 1; 1"}}
-    Loop -- Да --> Calc["prod = prod * (a + i)"]
-    Calc --> Loop
-    Loop -- Нет --> Out[/"Вывод prod"/]
-    Out --> End([Конец])
-```
 
 ## Реализация программы
 
